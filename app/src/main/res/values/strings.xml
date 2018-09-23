@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SAFER</string>
+    <string name="hint_email">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="title_activity_main_navigate">SAFER</string>
+    <string name="title_activity_register">Registrate</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Cerrar Menu</string>
+    <string name="nav_header_title">Usuario Uno</string>
+    <string name="nav_header_subtitle">Distrito de San Juan de Miraflores</string>
+    <string name="nav_header_desc">Cabecera</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="hint_name">Nombre</string>
+    <string name="register">Registrarte</string>
+    <string name="hint_address">Dirección</string>
+    <string name="link_register">No tienes cuenta? Registrate aqui!</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1026695985394",
+    "firebase_url": "https://safer-a5730.firebaseio.com",
+    "project_id": "safer-a5730",
+    "storage_bucket": "safer-a5730.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026695985394:android:e9cbb37cadd3a0ce",
+        "android_client_info": {
+          "package_name": "com.reactsoft.safer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026695985394-o1a2jjs42qlbuum31s9l0mohf10j9v5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactsoft.safer",
+            "certificate_hash": "3e0ee9dc6972b764e1239fa9dfcbdbb01f1991d8"
+          }
+        },
+        {
+          "client_id": "1026695985394-1anfp7a38prl0fls9crf5ir36vu3o289.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWKyhz-ceC1zNe8pA8l71NQWqZ4w8qICw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026695985394-1anfp7a38prl0fls9crf5ir36vu3o289.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
