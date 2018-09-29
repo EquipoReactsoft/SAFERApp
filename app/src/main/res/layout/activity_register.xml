@@ -35,6 +35,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/rName"
             android:hint="@string/hint_name"
+            android:theme="@style/EditTextTheme"
             android:padding="20dp"/>
 
     </android.support.design.widget.TextInputLayout>
@@ -51,6 +52,7 @@
             android:id="@+id/rEditEmail"
             android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
+            android:theme="@style/EditTextTheme"
             android:padding="20dp"/>
 
     </android.support.design.widget.TextInputLayout>
@@ -67,6 +69,7 @@
             android:id="@+id/rEditPassword"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
+            android:theme="@style/EditTextTheme"
             android:padding="20dp"/>
 
     </android.support.design.widget.TextInputLayout>
@@ -82,9 +85,26 @@
             android:layout_height="wrap_content"
             android:id="@+id/rAddress"
             android:hint="@string/hint_address"
+            android:theme="@style/EditTextTheme"
             android:padding="20dp"/>
 
     </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/textViewConfition"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Al registrarme estoy de acuerdo con los ">
+        <TextView
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Terminos, Condiciones y Politicas de Privacidad">
+
+        </TextView>
+    </TextView>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

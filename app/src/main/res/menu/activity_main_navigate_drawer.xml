@@ -35,12 +35,12 @@
         </menu>
     </item>
 
-    <item android:title="Configuración">
-        <menu>
-            <item
-                android:id="@+id/nav_manage"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Configuración" />
-        </menu>
-    </item>
+    <!--<item android:title="Configuración">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_manage"-->
+                <!--android:icon="@drawable/ic_menu_manage"-->
+                <!--android:title="Configuración" />-->
+        <!--</menu>-->
+    <!--</item>-->
 </menu>

@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorSecondary"
         app:headerLayout="@layout/nav_header_main_navigate"
         app:menu="@menu/activity_main_navigate_drawer" />
 

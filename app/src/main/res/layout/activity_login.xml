@@ -27,69 +27,39 @@
         <!--android:textSize="20dp"-->
         <!--android:textColor="@color/colorPrimary"-->
         <!--android:text="Bienvenido" />-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/lTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
 
-    <!--<android.support.design.widget.TextInputLayout-->
-        <!--android:id="@+id/lTextEmail"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content" >-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lEditEmail"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:theme="@style/EditTextTheme"
+            android:padding="20dp"/>
 
-        <!--<EditText-->
-            <!--android:id="@+id/lEditUser"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:hint="@string/hint_email"-->
-            <!--android:inputType="text"-->
-            <!--android:padding="20dp"/>-->
-
-    <!--</android.support.design.widget.TextInputLayout>-->
+    </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/lTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
 
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/lEditPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/hint_password"
             android:inputType="textPassword"
-            android:padding="20dp" />
+            android:theme="@style/EditTextTheme"
+            android:padding="20dp"/>
 
-        <TextView
-            android:id="@+id/algo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textColor="@color/colorPrimary"
-            android:text="No recuerda su contraseña?"
-            android:textAlignment="textEnd"
-            android:textSize="10dp" />
     </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/lTextPassword2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:id="@+id/lEditPassword2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_password"
-            android:inputType="textPassword"
-            android:padding="20dp" />
-
-        <TextView
-            android:id="@+id/algo2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:textColor="@color/colorPrimary"
-            android:text="No recuerda su contraseña?"
-            android:textAlignment="textEnd"
-            android:textSize="10dp" />
-    </android.support.design.widget.TextInputLayout>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -101,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/link_register"
+        android:layout_marginBottom="40dp"
         android:background="@null"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"
@@ -115,33 +86,90 @@
         android:textColor="@color/colorPrimary"
         android:text="Registrate por otra cuenta" />
 
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginTop="20dp">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/loginButtonFacebook"-->
+            <!--android:layout_width="85dp"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:background="@null"-->
+            <!--app:srcCompat="@drawable/ic_facebook_logo" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/loginButton_Gmail"-->
+            <!--android:layout_width="85dp"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:background="@null"-->
+            <!--app:srcCompat="@drawable/ic_gmail_logo" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/loginButtonInstagram"-->
+            <!--android:layout_width="85dp"-->
+            <!--android:layout_height="75dp"-->
+            <!--android:background="@null"-->
+            <!--app:srcCompat="@drawable/ic_instagram_logo" />-->
+
+    <!--</LinearLayout>-->
+
     <LinearLayout
-        android:layout_width="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <FrameLayout android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp">
+        android:background="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button android:id="@+id/saveSearchButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"/>
+        <ImageView android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_facebook_logo"
+            android:layout_gravity="center"/>
+    </FrameLayout>
 
-        <ImageButton
-            android:id="@+id/loginButtonFacebook"
-            android:layout_width="85dp"
-            android:layout_height="75dp"
-            android:background="@null"
-            app:srcCompat="@drawable/ic_facebook_logo" />
+    <FrameLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button android:id="@+id/clearSearchButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"/>
+        <ImageView android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_gmail_logo"
+            android:layout_gravity="center"/>
+    </FrameLayout>
 
-        <ImageButton
-            android:id="@+id/loginButton_Gmail"
-            android:layout_width="85dp"
-            android:layout_height="75dp"
-            android:background="@null"
-            app:srcCompat="@drawable/ic_gmail_logo" />
-
-        <ImageButton
-            android:id="@+id/loginButtonInstagram"
-            android:layout_width="85dp"
-            android:layout_height="75dp"
-            android:background="@null"
-            app:srcCompat="@drawable/ic_instagram_logo" />
+    <FrameLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button android:id="@+id/clearSearchButtons"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"/>
+        <ImageView android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_instagram_logo"
+            android:layout_gravity="center"/>
+    </FrameLayout>
 
     </LinearLayout>
+
 </LinearLayout>
