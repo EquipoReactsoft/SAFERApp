@@ -18,14 +18,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemeWithoutActionBar">
         <activity android:name=".ui.main.MainActivity">
+
+        </activity>
+        <activity android:name=".ui.login.LoginActivity"
+            android:theme="@style/AppThemeWithoutActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".ui.login.LoginActivity"
-            android:theme="@style/AppThemeWithoutActionBar">
-
         </activity>
         <activity android:name=".ui.main.MainNavigateActivity"
             android:label="@string/title_activity_main_navigate"
