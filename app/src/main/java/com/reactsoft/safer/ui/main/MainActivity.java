@@ -17,7 +17,7 @@ import com.reactsoft.safer.ui.list.ListFragment;
 
 import dagger.multibindings.LongKey;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends BaseActivity{
 
     @Override
     protected int layoutRes() {
