@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.reactsoft.safer">
-
+    <!--project-1026695985394-->
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <meta-data android:name="com.google.android.gms.version"
-        android:value="@integer/google_play_services_version" />
-    <meta-data android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyA6TWBjjg0749aB3v5CnnsBEldL3-iu6vI" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA6TWBjjg0749aB3v5CnnsBEldL3-iu6vI" />
 
     <application
         android:name=".base.BaseApplication"
@@ -27,12 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.main.MainNavigateActivity"
-            android:label="@string/title_activity_main_navigate"
-            android:theme="@style/AppThemeWithoutActionBar" />
-        <activity android:name=".ui.login.RegisterActivity"
-            android:label="@string/title_activity_main_navigate"
-            android:theme="@style/AppThemeLight" />
     </application>
 
 </manifest>

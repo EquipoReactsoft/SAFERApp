@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "1026695985394-vtbn3c6um1fb5r7qmrg8hu4m624b92lc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactsoft.safer",
+            "certificate_hash": "6834793d6c1b8175315adf88487756aff6c8c71f"
+          }
+        },
+        {
           "client_id": "1026695985394-1anfp7a38prl0fls9crf5ir36vu3o289.apps.googleusercontent.com",
           "client_type": 3
         }
