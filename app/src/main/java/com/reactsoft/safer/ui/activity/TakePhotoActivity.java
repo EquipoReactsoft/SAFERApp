@@ -26,10 +26,10 @@ import com.commonsware.cwac.camera.CameraHostProvider;
 import com.commonsware.cwac.camera.CameraView;
 import com.commonsware.cwac.camera.PictureTransaction;
 import com.commonsware.cwac.camera.SimpleCameraHost;
-import com.softonic.instamaterial.R;
-import com.softonic.instamaterial.ui.activity.publish.PublishActivity;
-import com.softonic.instamaterial.ui.utils.Utils;
-import com.softonic.instamaterial.ui.view.RevealBackgroundView;
+import com.reactsoft.safer.R;
+import com.reactsoft.safer.ui.activity.publish.PublishActivity;
+import com.reactsoft.safer.ui.utils.Utils;
+import com.reactsoft.safer.ui.view.RevealBackgroundView;
 
 import java.io.File;
 

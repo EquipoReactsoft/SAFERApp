@@ -100,14 +100,14 @@ public class FeedItemAnimator extends DefaultItemAnimator {
       FeedAdapter.CellFeedViewHolder holder = (FeedAdapter.CellFeedViewHolder) newHolder;
 
       if ((feedItemHolderInfo.likeTapFlags & LIKE_TAP_LIKED) != 0) {
-        animateHeartButton(holder, R.drawable.ic_heart_red);
+        animateHeartButton(holder, R.drawable.ic_star_yellow);
         incrementLikesCounter(holder, holder.getFeedItem().getUserLikes().size());
       } else if ((feedItemHolderInfo.likeTapFlags & LIKE_REMOTE_LIKE) != 0) {
         incrementLikesCounter(holder, holder.getFeedItem().getUserLikes().size());
       } else if ((feedItemHolderInfo.likeTapFlags & LIKE_REMOTE_DISLIKE) != 0) {
         decrementLikesCounter(holder, holder.getFeedItem().getUserLikes().size());
       } else {
-        animateHeartButton(holder, R.drawable.ic_heart_outline_grey);
+        animateHeartButton(holder, R.drawable.ic_star_outline_grey);
         decrementLikesCounter(holder, holder.getFeedItem().getUserLikes().size());
       }
       if ((feedItemHolderInfo.likeTapFlags & LIKE_TAP_SOURCE_IMAGE) != 0) {

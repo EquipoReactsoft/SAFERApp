@@ -1,9 +1,9 @@
 package com.reactsoft.safer.data.repository.photo;
 
-import com.softonic.instamaterial.domain.common.ObservableTask;
-import com.softonic.instamaterial.domain.common.Subscriber;
-import com.softonic.instamaterial.domain.model.Photo;
-import com.softonic.instamaterial.domain.model.UnpublishedPhoto;
+import com.reactsoft.safer.domain.common.ObservableTask;
+import com.reactsoft.safer.domain.common.Subscriber;
+import com.reactsoft.safer.domain.model.Photo;
+import com.reactsoft.safer.domain.model.UnpublishedPhoto;
 
 import java.util.Arrays;
 import java.util.LinkedList;

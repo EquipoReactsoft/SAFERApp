@@ -1,9 +1,9 @@
 package com.reactsoft.safer.data.repository.comment;
 
-import com.softonic.instamaterial.domain.common.ObservableTask;
-import com.softonic.instamaterial.domain.common.Subscriber;
-import com.softonic.instamaterial.domain.model.Comment;
-import com.softonic.instamaterial.domain.model.UnpublishedComment;
+import com.reactsoft.safer.domain.common.ObservableTask;
+import com.reactsoft.safer.domain.common.Subscriber;
+import com.reactsoft.safer.domain.model.Comment;
+import com.reactsoft.safer.domain.model.UnpublishedComment;
 
 import java.util.Arrays;
 import java.util.HashMap;

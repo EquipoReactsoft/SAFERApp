@@ -49,8 +49,8 @@ public class ListFragment extends BaseFragment implements RepoSelectedListener {
     public void onRepoSelected(Repo repo) {
         DetailsViewModel detailsViewModel = ViewModelProviders.of(getBaseActivity(), viewModelFactory).get(DetailsViewModel.class);
         detailsViewModel.setSelectedRepo(repo);
-        getBaseActivity().getSupportFragmentManager().beginTransaction().replace(R.id.screenContainer, new DetailsFragment())
-                .addToBackStack(null).commit();
+        //getBaseActivity().getSupportFragmentManager().beginTransaction().replace(R.id.screenContainer, new DetailsFragment())
+          //      .addToBackStack(null).commit();
     }
 
     private void observableViewModel() {

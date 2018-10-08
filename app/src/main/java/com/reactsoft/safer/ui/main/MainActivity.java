@@ -48,7 +48,7 @@ public class MainActivity extends BaseActivity {
 //            }
 //        });
 
-        if(savedInstanceState == null)
-            getSupportFragmentManager().beginTransaction().add(R.id.screenContainer, new ListFragment()).commit();
+        //if(savedInstanceState == null)
+          //  getSupportFragmentManager().beginTransaction().add(R.id.screenContainer, new ListFragment()).commit();
     }
 }

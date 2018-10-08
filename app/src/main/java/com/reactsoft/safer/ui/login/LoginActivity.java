@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.reactsoft.safer.R;
+import com.reactsoft.safer.ui.activity.main.MainActivity;
 import com.reactsoft.safer.ui.main.MainNavigateActivity;
 import com.reactsoft.safer.base.BaseActivity;
 
@@ -24,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainNavigateActivity.class);
+                Intent i = new Intent(v.getContext(), MainActivity.class);
                 startActivity(i);
             }
         });
@@ -32,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         buttonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), RegisterActivity.class);
+                Intent i = new Intent(v.getContext(), MainActivity.class);
                 startActivity(i);
             }
         });
