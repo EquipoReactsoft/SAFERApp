@@ -1,4 +1,4 @@
-package com.reactsoft.safer.ui.main;
+package com.reactsoft.safer.ui.activity.main;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
