@@ -9,7 +9,6 @@ import android.widget.Button;
 import com.reactsoft.safer.R;
 import com.reactsoft.safer.ui.activity.main.MainActivity;
 import com.reactsoft.safer.ui.main.MainNavigateActivity;
-import com.reactsoft.safer.base.BaseActivity;
 
 
 public class LoginActivity extends AppCompatActivity {
